@@ -11,7 +11,7 @@ class CourseTest {
     @Test
     void addStudent_SunnyDay() {
         Course course = new Course();
-        course.addStudent(new Student(123));
+        course.addStudent(new Student(124));
 
         //aanname??
         //grootte van studentlijst == 1

@@ -12,7 +12,7 @@ public class Course {
      * @param student
      * @throws IllegalArgumentException ex when null is passed, or when the ID is already registered
      */
-    public void addStudent(Student student) {
+    public void addStudent(Student student) throws IllegalArgumentException {
         //this.students.add(student);
         //what to do with null??
         if (null == student) {

@@ -1,22 +1,18 @@
 package nl.bioinf.oop;
 
 public class GameCharacter {
-    String name;
-    int vitality;
-    double locationX;
-    double locationY;
-    double locationZ;
-    String weaponType;
-    int bazookaWeaponPower;
-    int pistolWeaponPower;
-    int laserWeaponPower;
+    private String name;
+    private int vitality;
+    private Location location;
+    private AbstractWeapon weapon;
+
+    public GameCharacter(String name, int vitality, Location location) {
+        this.name = name;
+        this.vitality = vitality;
+        this.location = location;
+    }
 
     void shoot (double heading) {
-        switch (this.weaponType) {
-            case "bazooka":
-                System.out.println("shooting bazooka at heading " + heading);
-            case "pistol": // do something
-            case "laser":// do something
-        }
+        this.weapon.shoot(heading);
     }
 }

@@ -11,6 +11,6 @@ public class School {
         System.out.println("students: " + course.getStudents().size());
 
         course.addStudent(null);
-    }
 
+    }
 }
