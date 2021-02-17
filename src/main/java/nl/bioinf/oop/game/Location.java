@@ -27,4 +27,16 @@ public class Location {
         return new Location(this.x + deltaX, this.y + deltaY, this.z + deltaZ);
     }
 
+    /**
+     * Determines whether this Location is located within a certain 3D space.
+     * Assumed is that space is defined from (0, 0, 0) as minimum.
+     * @param x
+     * @param y
+     * @param z
+     * @return withiSpace
+     */
+    public boolean isWithinSpace(double x, double y, double z) {
+        return (this.x >=0 && this.y >= 0 && this.z >= 0 &&
+                this.x <= x && this.y <= y && this.z <= z);
+    }
 }
