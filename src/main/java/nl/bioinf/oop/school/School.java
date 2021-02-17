@@ -1,4 +1,4 @@
-package nl.bioinf.oop;
+package nl.bioinf.oop.school;
 
 import java.util.List;
 

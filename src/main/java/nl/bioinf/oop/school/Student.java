@@ -1,4 +1,4 @@
-package nl.bioinf.oop;
+package nl.bioinf.oop.school;
 
 public class Student {
     private final int id;

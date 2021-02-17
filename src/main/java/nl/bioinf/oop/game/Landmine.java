@@ -1,4 +1,4 @@
-package nl.bioinf.oop;
+package nl.bioinf.oop.game;
 
 public class Landmine extends AbstractWeapon{
     @Override

@@ -1,4 +1,4 @@
-package nl.bioinf.oop;
+package nl.bioinf.oop.game;
 
 public abstract class AbstractWeapon {
     abstract void shoot(double heading);

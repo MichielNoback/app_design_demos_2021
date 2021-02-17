@@ -1,4 +1,7 @@
-package nl.bioinf.oop;
+package nl.bioinf.oop.game;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Game {
     //gameWidth defines the maximum x coordinate of the game
@@ -7,6 +10,8 @@ public class Game {
     private double gameDepth;
     //gameHeight defines the maximum z coordinate of the game
     private double gameHeight;
+
+    private List<GameCharacter> gameCharacters = new ArrayList<>();
 
     /**
      * Spawn a player.

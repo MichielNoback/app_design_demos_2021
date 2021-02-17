@@ -1,5 +1,7 @@
 package nl.bioinf.oop;
 
+import nl.bioinf.oop.school.Course;
+import nl.bioinf.oop.school.Student;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
