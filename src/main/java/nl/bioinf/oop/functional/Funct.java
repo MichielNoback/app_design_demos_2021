@@ -16,6 +16,7 @@ public class Funct {
         Predicate<String> wl = (w) -> w.length() < 4;
 
 //        System.out.println(wl.test("Bargf"));
+//        oei oei wat is dit slechte code
 
         String[] words =
                 {"arg", "bah", "yeah", "howwie", "aw", "whoa", "yuck"};
